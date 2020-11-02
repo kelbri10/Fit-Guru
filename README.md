@@ -17,10 +17,11 @@ When you choose to add an exercise, you can put in the type of exercies, sets, r
 ## TO DO 
 - [x] ADD exercises to previous workout plan
 - [x] ADD new exercies to new workout plan
-- [ ] VIEW combined weight of multiple exercise on stats page
+- [x] VIEW combined weight of multiple exercise on stats page
+- [ ] VIEW total workout duration
 
 W/ Mongo 
-- [ ] CREATE workout database
+- [x] CREATE workout database
 - [x] CREATE database schema 
 
 W/ Express 
