@@ -5,8 +5,8 @@ A workout tracker that allows the user to create and track workouts daily.
 Say Hello to Fit Guru! An app for athletes and users who want to track their fitness workouts. With Fit Guru, users are able to create and track daily workouts. Log your exercises by name, type, sets, reps, etc. With Fit Guru, you can reach your fitness goals easier than ever before. 
 
 ## TO DO 
-- [ ] ADD exercises to previous workout plan
-- [ ] ADD new exercies to new workout plan
+- [x] ADD exercises to previous workout plan
+- [x] ADD new exercies to new workout plan
 - [ ] VIEW combined weight of multiple exercise on stats page
 
 W/ Mongo 
@@ -18,4 +18,5 @@ W/ Express
 - [x] CREATE API routes
 
 Deployment
-- [ ] Set up database on MongoDB Atlas 
+- [x] Set up database on MongoDB Atlas 
+- [ ] DEBUG code so that when deployed on Heroku, the last workout is displayed
