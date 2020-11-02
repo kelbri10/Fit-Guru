@@ -11,7 +11,7 @@ Say Hello to Fit Guru! An app for athletes and users who want to track their fit
 
 W/ Mongo 
 - [ ] CREATE workout database
-- [ ] CREATE database schema 
+- [x] CREATE database schema 
 
 W/ Express 
 - [x] CREATE HTML routes 
