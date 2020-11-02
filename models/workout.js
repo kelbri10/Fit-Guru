@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 //user can track
 //name, type, weight, sets, reps, duration
-const WorkoutSchema = newSchema({
+const WorkoutSchema = new Schema({
     
         day: { 
             type: Date, 

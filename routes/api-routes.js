@@ -1,17 +1,18 @@
-const db = require('../models'); 
 
-module.exports = app => { 
-    app.get('/api/workouts', (req, res) => {
+const db = require('../models'); 
+const router = require('express').Router(); 
+
+router.get('/api/workouts', (req, res) => {
         db.Workout.find({})
-        .then(dbWorkout => { 
-            res.json(dbWorkout); 
+        .then(workouts => { 
+            res.json(workouts); 
         })
         .catch(err => { 
             res.json(err); 
         }); 
     }); 
 
-    app.put('/api/workouts/:id', (req, res) => {
+router.put('/api/workouts/:id', (req, res) => {
         const id = req.params.id; 
         const body = req.body; 
 
@@ -25,32 +26,33 @@ module.exports = app => {
             {
                 new: true
             })
-            .then(dbWorkout => { 
-                res.json(dbWorkout); 
+            .then(workouts => { 
+                res.json(workouts); 
             })
             .catch(err => { 
                 res.json(err); 
             });
     }); 
 
-    app.get('/api/workouts/range', (req, res) => {
+router.get('/api/workouts/range', (req, res) => {
         db.Workout.find({})
-        .then(dbWorkout => { 
-            res.json(dbWorkout); 
+        .then(workouts => { 
+            res.json(workouts); 
         })
         .catch(err => {
             res.json(err); 
         });
     }); 
 
-    app.post('/api/workouts', (req, res) => {
+router.post('/api/workouts', (req, res) => {
         const body = req.body; 
         db.Workout.create(body)
-        .then(dbWorkout => { 
-            res.json(dbWorkout); 
+        .then(workouts => { 
+            res.json(workouts); 
         })
         .catch(err => { 
             res.json(err); 
         }); 
     });
-}
+
+module.exports = router; 

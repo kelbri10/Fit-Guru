@@ -15,7 +15,7 @@ W/ Mongo
 
 W/ Express 
 - [x] CREATE HTML routes 
-- [ ] CREATE API routes
+- [x] CREATE API routes
 
 Deployment
 - [ ] Set up database on MongoDB Atlas 
