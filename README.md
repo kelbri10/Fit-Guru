@@ -14,6 +14,9 @@ You can Add Resistance or Cardio Workouts.
 When you choose to add an exercise, you can put in the type of exercies, sets, reps, and duration. 
 ![fit-guru resistance options example](imgs/fitGuruAddResist.png)
 
+Clicking the Fitness Tracker Dashboard, will take you to your stats page. 
+![fit-guru stats tracker demo](imgs/fitGuruStats.png)
+
 ## TO DO 
 - [x] ADD exercises to previous workout plan
 - [x] ADD new exercies to new workout plan
@@ -30,4 +33,4 @@ W/ Express
 
 Deployment
 - [x] Set up database on MongoDB Atlas 
-- [ ] DEBUG code so that when deployed on Heroku, the last workout is displayed
+- [x] DEBUG code so that when deployed on Heroku, the last workout is displayed
