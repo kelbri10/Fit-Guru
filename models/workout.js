@@ -4,7 +4,7 @@ const Schema = mongoose.Schema;
 //user can track
 //name, type, weight, sets, reps, duration
 const WorkoutSchema = newSchema({
-    { 
+    
         day: { 
             type: Date, 
             default: Date.now
@@ -42,8 +42,7 @@ const WorkoutSchema = newSchema({
                 }
             }
         ]
-    }
-})
+});
 
 const Workout = mongoose.model('Workout', WorkoutSchema); 
 
