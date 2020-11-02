@@ -14,7 +14,7 @@ W/ Mongo
 - [ ] CREATE database schema 
 
 W/ Express 
-- [ ] CREATE HTML routes 
+- [x] CREATE HTML routes 
 - [ ] CREATE API routes
 
 Deployment
